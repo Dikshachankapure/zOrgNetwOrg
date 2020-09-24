@@ -1,0 +1,171 @@
+[{
+	"prp1p": "prp1p 1",
+	"prp2": "prp2 1",
+	"__metadata": {
+		"uri": "DummySet('prp1p%201')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%201')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%201')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 2",
+	"prp2": "prp2 2",
+	"__metadata": {
+		"uri": "DummySet('prp1p%202')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%202')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%202')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 3",
+	"prp2": "prp2 3",
+	"__metadata": {
+		"uri": "DummySet('prp1p%203')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%203')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%203')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 4",
+	"prp2": "prp2 4",
+	"__metadata": {
+		"uri": "DummySet('prp1p%204')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%204')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%204')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 5",
+	"prp2": "prp2 5",
+	"__metadata": {
+		"uri": "DummySet('prp1p%205')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%205')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%205')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 6",
+	"prp2": "prp2 6",
+	"__metadata": {
+		"uri": "DummySet('prp1p%206')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%206')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%206')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 7",
+	"prp2": "prp2 7",
+	"__metadata": {
+		"uri": "DummySet('prp1p%207')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%207')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%207')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 8",
+	"prp2": "prp2 8",
+	"__metadata": {
+		"uri": "DummySet('prp1p%208')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%208')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%208')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 9",
+	"prp2": "prp2 9",
+	"__metadata": {
+		"uri": "DummySet('prp1p%209')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%209')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%209')/LINES"
+		}
+	}
+}, {
+	"prp1p": "prp1p 10",
+	"prp2": "prp2 10",
+	"__metadata": {
+		"uri": "DummySet('prp1p%2010')",
+		"type": "ZEMPLOYY_DATA_SRV.Dummy"
+	},
+	"NODES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%2010')/NODES"
+		}
+	},
+	"LINES": {
+		"__deferred": {
+			"uri": "DummySet('prp1p%2010')/LINES"
+		}
+	}
+}]

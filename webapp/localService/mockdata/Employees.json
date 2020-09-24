@@ -1,0 +1,191 @@
+[{
+	"Attributes": {
+		"Label": 9,
+		"Value": "Value 1"
+	},
+	"Key": "Key 1",
+	"Id": "Id 1",
+	"Title": "Title 1",
+	"Src": "Src 1",
+	"Supervisor": "Supervisor 1",
+	"Team": 416,
+	"Location": "Location 1",
+	"Position": "Position 1",
+	"Email": "Email 1",
+	"Phone": "Phone 1",
+	"__metadata": {
+		"uri": "Employees('Key%201')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 6671,
+		"Value": "Value 2"
+	},
+	"Key": "Key 2",
+	"Id": "Id 2",
+	"Title": "Title 2",
+	"Src": "Src 2",
+	"Supervisor": "Supervisor 2",
+	"Team": 2613,
+	"Location": "Location 2",
+	"Position": "Position 2",
+	"Email": "Email 2",
+	"Phone": "Phone 2",
+	"__metadata": {
+		"uri": "Employees('Key%202')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 7960,
+		"Value": "Value 3"
+	},
+	"Key": "Key 3",
+	"Id": "Id 3",
+	"Title": "Title 3",
+	"Src": "Src 3",
+	"Supervisor": "Supervisor 3",
+	"Team": 2584,
+	"Location": "Location 3",
+	"Position": "Position 3",
+	"Email": "Email 3",
+	"Phone": "Phone 3",
+	"__metadata": {
+		"uri": "Employees('Key%203')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 5101,
+		"Value": "Value 4"
+	},
+	"Key": "Key 4",
+	"Id": "Id 4",
+	"Title": "Title 4",
+	"Src": "Src 4",
+	"Supervisor": "Supervisor 4",
+	"Team": 7638,
+	"Location": "Location 4",
+	"Position": "Position 4",
+	"Email": "Email 4",
+	"Phone": "Phone 4",
+	"__metadata": {
+		"uri": "Employees('Key%204')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 100,
+		"Value": "Value 5"
+	},
+	"Key": "Key 5",
+	"Id": "Id 5",
+	"Title": "Title 5",
+	"Src": "Src 5",
+	"Supervisor": "Supervisor 5",
+	"Team": 8688,
+	"Location": "Location 5",
+	"Position": "Position 5",
+	"Email": "Email 5",
+	"Phone": "Phone 5",
+	"__metadata": {
+		"uri": "Employees('Key%205')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 9523,
+		"Value": "Value 6"
+	},
+	"Key": "Key 6",
+	"Id": "Id 6",
+	"Title": "Title 6",
+	"Src": "Src 6",
+	"Supervisor": "Supervisor 6",
+	"Team": 8078,
+	"Location": "Location 6",
+	"Position": "Position 6",
+	"Email": "Email 6",
+	"Phone": "Phone 6",
+	"__metadata": {
+		"uri": "Employees('Key%206')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 3324,
+		"Value": "Value 7"
+	},
+	"Key": "Key 7",
+	"Id": "Id 7",
+	"Title": "Title 7",
+	"Src": "Src 7",
+	"Supervisor": "Supervisor 7",
+	"Team": 591,
+	"Location": "Location 7",
+	"Position": "Position 7",
+	"Email": "Email 7",
+	"Phone": "Phone 7",
+	"__metadata": {
+		"uri": "Employees('Key%207')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 4853,
+		"Value": "Value 8"
+	},
+	"Key": "Key 8",
+	"Id": "Id 8",
+	"Title": "Title 8",
+	"Src": "Src 8",
+	"Supervisor": "Supervisor 8",
+	"Team": 4053,
+	"Location": "Location 8",
+	"Position": "Position 8",
+	"Email": "Email 8",
+	"Phone": "Phone 8",
+	"__metadata": {
+		"uri": "Employees('Key%208')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 7495,
+		"Value": "Value 9"
+	},
+	"Key": "Key 9",
+	"Id": "Id 9",
+	"Title": "Title 9",
+	"Src": "Src 9",
+	"Supervisor": "Supervisor 9",
+	"Team": 7826,
+	"Location": "Location 9",
+	"Position": "Position 9",
+	"Email": "Email 9",
+	"Phone": "Phone 9",
+	"__metadata": {
+		"uri": "Employees('Key%209')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}, {
+	"Attributes": {
+		"Label": 3812,
+		"Value": "Value 10"
+	},
+	"Key": "Key 10",
+	"Id": "Id 10",
+	"Title": "Title 10",
+	"Src": "Src 10",
+	"Supervisor": "Supervisor 10",
+	"Team": 6152,
+	"Location": "Location 10",
+	"Position": "Position 10",
+	"Email": "Email 10",
+	"Phone": "Phone 10",
+	"__metadata": {
+		"uri": "Employees('Key%2010')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_New"
+	}
+}]

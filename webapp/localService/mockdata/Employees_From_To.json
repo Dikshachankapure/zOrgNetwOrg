@@ -1,0 +1,81 @@
+[{
+	"Key": "Key 1",
+	"From": "From 1",
+	"To": "To 1",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%201')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 2",
+	"From": "From 2",
+	"To": "To 2",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%202')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 3",
+	"From": "From 3",
+	"To": "To 3",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%203')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 4",
+	"From": "From 4",
+	"To": "To 4",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%204')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 5",
+	"From": "From 5",
+	"To": "To 5",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%205')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 6",
+	"From": "From 6",
+	"To": "To 6",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%206')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 7",
+	"From": "From 7",
+	"To": "To 7",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%207')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 8",
+	"From": "From 8",
+	"To": "To 8",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%208')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 9",
+	"From": "From 9",
+	"To": "To 9",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%209')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}, {
+	"Key": "Key 10",
+	"From": "From 10",
+	"To": "To 10",
+	"__metadata": {
+		"uri": "Employees_From_To('Key%2010')",
+		"type": "ZEMPLOYY_DATA_SRV.Employee_From_To"
+	}
+}]

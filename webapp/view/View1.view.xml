@@ -1,0 +1,40 @@
+<mvc:View controllerName="NetworkGraphZOrgNetwGraph.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.suite.ui.commons.networkgraph"
+	xmlns:layout="sap.suite.ui.commons.networkgraph.layout">
+	<m:App id="app">
+		<m:pages>
+			<m:Page title="{i18n>title}">
+				<m:content>
+					<Graph nodes="{/NODES/results}" lines="{/LINES/results}" searchSuggest="suggest" search="search" id="graph" orientation="TopBottom">
+						<layoutAlgorithm>
+							<layout:LayeredLayout mergeEdges="true" nodePlacement="Simple" nodeSpacing="40"/>
+						</layoutAlgorithm>
+						<nodes>
+							<Node  key="{Id}" description="{Title}" width="90" collapsed="{collapsed}" attributes="{Attributes}"
+								showActionLinksButton="false" showDetailButton="false" descriptionLineSize="0" shape="Box">
+								<customData>
+									<core:CustomData key="Supervisor" value="{Supervisor}"/>
+									<core:CustomData key="Team" value="{Team}"/>
+									<core:CustomData key="Location" value="{Location}"/>
+									<core:CustomData key="Position" value="{Position}"/>
+									<core:CustomData key="Team" value="{Team}"/>
+									<core:CustomData key="Email" value="{Email}"/>
+									<core:CustomData key="Phone" value="{Phone}"/>
+								</customData>
+								<attributes>
+									<ElementAttribute label="{Label}"/>
+								</attributes>
+								<image>
+									<NodeImage src="images/male_GordonR.jpg" width="80" height="100"/>
+								</image>
+							</Node>
+						</nodes>
+						<lines>
+							<Line from="{From}" to="{To}" arrowOrientation="None" press="linePress"/>
+						</lines>
+					</Graph>
+				</m:content>
+			</m:Page>
+		</m:pages>
+	</m:App>
+</mvc:View>

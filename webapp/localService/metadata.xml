@@ -1,0 +1,114 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZEMPLOYY_DATA_SRV" xml:lang="en" sap:schema-version="1">
+            <EntityType Name="Employee_New" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Key"/>
+                </Key>
+                <Property Name="Attributes" Type="ZEMPLOYY_DATA_SRV.Attributes" Nullable="false"/>
+                <Property Name="Key" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Dummy Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Id" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Title" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="First Name and Last Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Src" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Image Source" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Supervisor" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Team" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="No of Employees Working Under Supervisor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Location" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="State / City of Employee" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Position" Type="Edm.String" Nullable="false" MaxLength="25" sap:unicode="false" sap:label="Position Short Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="Long ID/Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Phone" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="Long ID/Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Employee_From_To" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Key"/>
+                </Key>
+                <Property Name="Key" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="From" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="To" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Employee" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Id"/>
+                </Key>
+                <Property Name="Id" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Title" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="First Name and Last Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Src" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Image Source" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Label" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="Total Employee count under supervisor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Supervisor" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Team" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="No of Employees Working Under Supervisor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Location" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="State / City of Employee" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Position" Type="Edm.String" Nullable="false" MaxLength="25" sap:unicode="false" sap:label="Position Short Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="Long ID/Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Phone" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="Long ID/Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="From" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="To" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Dummy" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="prp1p"/>
+                </Key>
+                <Property Name="prp1p" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="prp2" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="NODES" Relationship="ZEMPLOYY_DATA_SRV.EmplInfo" FromRole="FromRole_EmplInfo" ToRole="ToRole_EmplInfo"/>
+                <NavigationProperty Name="LINES" Relationship="ZEMPLOYY_DATA_SRV.EmplFromTo" FromRole="FromRole_EmplFromTo" ToRole="ToRole_EmplFromTo"/>
+            </EntityType>
+            <ComplexType Name="Attributes">
+                <Property Name="Label" Type="Edm.Int32" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Value" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <Association Name="EmplFromTo" sap:content-version="1">
+                <End Type="ZEMPLOYY_DATA_SRV.Dummy" Multiplicity="0..1" Role="FromRole_EmplFromTo"/>
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_From_To" Multiplicity="*" Role="ToRole_EmplFromTo"/>
+            </Association>
+            <Association Name="EmplInfo" sap:content-version="1">
+                <End Type="ZEMPLOYY_DATA_SRV.Dummy" Multiplicity="0..1" Role="FromRole_EmplInfo"/>
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_New" Multiplicity="*" Role="ToRole_EmplInfo"/>
+            </Association>
+            <Association Name="NewAss" sap:content-version="1">
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_New" Multiplicity="*" Role="FromRole_NewAss"/>
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_From_To" Multiplicity="*" Role="ToRole_NewAss"/>
+            </Association>
+            <Association Name="NewAss1" sap:content-version="1">
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_New" Multiplicity="*" Role="FromRole_NewAss1"/>
+                <End Type="ZEMPLOYY_DATA_SRV.Employee_From_To" Multiplicity="*" Role="ToRole_NewAss1"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_NewAss1">
+                        <PropertyRef Name="Key"/>
+                    </Principal>
+                    <Dependent Role="ToRole_NewAss1">
+                        <PropertyRef Name="Key"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="ZEMPLOYY_DATA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="Employees" EntityType="ZEMPLOYY_DATA_SRV.Employee_New" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="Employees_From_To" EntityType="ZEMPLOYY_DATA_SRV.Employee_From_To" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="EmployeeCollection" EntityType="ZEMPLOYY_DATA_SRV.Employee" sap:content-version="1"/>
+                <EntitySet Name="DummySet" EntityType="ZEMPLOYY_DATA_SRV.Dummy" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <AssociationSet Name="NewAss1Set" Association="ZEMPLOYY_DATA_SRV.NewAss1" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Employees" Role="FromRole_NewAss1"/>
+                    <End EntitySet="Employees_From_To" Role="ToRole_NewAss1"/>
+                </AssociationSet>
+                <AssociationSet Name="EmplInfo_AssocSet" Association="ZEMPLOYY_DATA_SRV.EmplInfo" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="DummySet" Role="FromRole_EmplInfo"/>
+                    <End EntitySet="Employees" Role="ToRole_EmplInfo"/>
+                </AssociationSet>
+                <AssociationSet Name="NewAss_AssocSet" Association="ZEMPLOYY_DATA_SRV.NewAss" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Employees" Role="FromRole_NewAss"/>
+                    <End EntitySet="Employees_From_To" Role="ToRole_NewAss"/>
+                </AssociationSet>
+                <AssociationSet Name="EmplFromTo_AssocSet" Association="ZEMPLOYY_DATA_SRV.EmplFromTo" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="DummySet" Role="FromRole_EmplFromTo"/>
+                    <End EntitySet="Employees_From_To" Role="ToRole_EmplFromTo"/>
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZEMPLOYY_DATA_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZEMPLOYY_DATA_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>
